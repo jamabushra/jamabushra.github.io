@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--Home page with details of the company (index.html)-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Assesment Unit Outline" />
+    <meta name="keywords" content="HTML, Form, tags, CSS, JavaScript" />
+    <meta name="author" content="Jama Bushra/101797206" />
+    <title>Assesment - outline</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="header-brand">CloverfieldTech</a>
+        <nav>
+            <ul>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="enhancements.html">Enhancements</a></li>
+            </ul>
+            <a href="cases.html" class="header-cases">Cases</a>
+        </nav>
+    </header>
+    <main>
+        <section class="enhancements-banner">
+            <div class="vertical-centre">
+                <h2>We're Back And<br>We're Better</h2>
+                <h1>up, up and awayyyyyy</h1>
+            </div>
+        </section>
+
+        <section class="html-enhancements">
+            <h2>Our Enhancements</h2>
+            <div class="all-enhancements">
+                <h3>FULLY RESPONSIVE WEBSITE</h3>
+                <p>The enhancement lets the website be fully responsive and easily viewable on both a mobile device <br>
+                    aswell as bigger screens with relevant adjustments made for the different screen sizes</p>
+                <p>The code for the enhancement is as follows:</p>
+                <p>@media only screen and (min-width: 1000px) {<br>
+                    header .header-brand {<br>
+                    margin: 31px 0;<br>
+                    text-align: left;<br>
+                    line-height: 72px;<br>
+                    padding: 0 20px 0 237px;<br>
+                    border-right: 7px solid #001F67;<br>
+                    float: left;} <br>
+
+                    header nav ul { <br>
+                    margin: 30px 0px; <br>
+                    float: left; <br>
+                    } <br>
+
+                    header nav ul li a { <br>
+                    line-height: 60px; <br>
+                    } <br>
+
+                    }
+                </p>
+                <p> <strong> Source of inspiration:</strong></p>
+                <p>https://www.youtube.com/watch?v=kbLfWKGVsMQ followed and coded along tutorial to implement advanced
+                    <br>
+                    features such as mobile responsiveness to website</p>
+
+                <p>To see enhancement in action - Just resize screen</p>
+
+                <h3>EXTRA HTML & CSS NOT COVERED IN READING MATERIAL</h3>
+                <p>animations done on hover using flexbox attributes also added a wrapping attribute to make images more
+                    <br>
+                    responsive and flexible to various screen sizes</p>
+                <p>The code for it is as follows:</p>
+                <p>.container { <br>
+                    display: flex; <br>
+                    flex-wrap: wrap; <br>
+                    justify-content: center; <br>
+                    } <br>
+
+                    .container img { <br>
+                    width: 450px; <br>
+                    height: 300px; <br>
+                    margin: 7px; <br>
+                    transition: all 1s; /*this*/ <br>
+                    } <br>
+
+                    .container img:hover { <br>
+                    transform: scale(1.1);/*coupled with this makes it scale for 1 second when i hover cursor over
+                    image*/
+                    <br>
+                    }</p>
+
+                <p> <strong> Source of inspiration:</strong></p>
+                <p>https://www.udemy.com/the-complete-web-developer-zero-to-mastery/ followed along and coded with
+                    section on how to animate css using flexbox</p>
+
+                <p>To see enhancement in action - See images posted below</p>
+
+            </div>
+            <div class="container">
+                <img src="image/ora.jpg" alt="nico-mksmc-1324407-unsplash">
+                <img src="image/area34.jpg" alt="maite-tiscar-150255-unsplash">
+                <img src="image/racer.jpg" alt="samuel-zeller-699374-unsplash">
+                <img src="image/decima.jpg" alt="scott-rodgerson-375826-unsplash">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright"> &copy; CloverfieldTech Established in 1995</p>
+        <div class="footer-sm">
+            <a href="https://twitter.com/jhbissle">
+                <img class="icontwitter" src="image/twitter-logo-silhouette.png" alt="twitter icon">
+            </a>
+            <a href="https://www.linkedin.com/in/jama-bushra-12677b143">
+                <img class="iconlinkedin" src="image/linkedin-letters.png" alt="linkedin icon">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

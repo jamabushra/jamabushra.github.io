@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--Home page with details of the company (index.html)-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Assesment Unit Outline" />
+    <meta name="keywords" content="HTML, Form, tags, CSS, JavaScript" />
+    <meta name="author" content="Jama Bushra/101797206" />
+    <title>Assesment - outline</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="header-brand">CloverfieldTech</a>
+        <nav>
+            <ul>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="enhancements.html">Enhancements</a></li>
+            </ul>
+            <a href="cases.html" class="header-cases">Cases</a>
+        </nav>
+    </header>
+    <main>
+        <section class="apply-banner">
+            <div class="vertical-centre">
+                <h2>Where Can We<br>Take You?</h2>
+                <h1>skies no limit, apply now we only work on hard impactful problems</h1>
+            </div>
+        </section>
+
+        <section class="html-enhancements">
+            <h2>Our Applications</h2>
+
+            <div id="formelements">
+                <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+                    <fieldset>
+                        <legend>Applicant Details</legend>
+                        <p><label for="jobreference">Job ID</label>
+                            <input type="text" name="studentid" id="jobreference" maxlength="5" size="10"
+                                required="required" pattern="[a-zA-Z0-9]{0,5}" />
+                        </p>
+                        <p><label for="givenname">Given Name</label>
+                            <input type="text" name="givenname" id="givenname" maxlength="20" size="10"
+                                required="required" pattern="[a-zA-Z]+" />
+
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="lastname" id="lastname" maxlength="20" size="10"
+                                required="required" pattern="[a-zA-Z]+" /> <br>
+
+                            <label for="streetaddress">Street Address</label>
+                            <input type="text" name="streetaddress" id="streetaddress" maxlength="40" size="10"
+                                required="required" pattern="[a-zA-Z]+" /> <br>
+
+                            <label for="state">Choose State</label>
+                            <select name="state" id="state" required="required">
+                                <option value="">State</option>
+                                <option value="VIC">VIC</option>
+                                <option value="NSW">NSW</option>
+                                <option value="QLD">QLD</option>
+                                <option value="NT">NT</option>
+                                <option value="WA">WA</option>
+                                <option value="SA">SA</option>
+                                <option value="TA">TA</option>
+                                <option value="ACT">ACT</option>
+                            </select>
+
+                            <label for="postcode">Postcode</label>
+                            <input type="text" name="postcode" id="postcode" maxlength="4" size="10" required="required"
+                                pattern="[a-zA-Z0-9]{4,4}" /> <br>
+
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" maxlength="40" size="20" required="required" />
+                            <br>
+
+                            <label for="phone">Phone</label>
+                            <input type="text" name="phone" id="phone" maxlength="10" size="10" required="required"
+                                pattern="[0-9]{8,12}" />
+                        </p>
+                        <p><label for="dob">Date of Birth</label>
+                            <input type="text" name="dob" id="dob" placeholder="dd-mm-yyyy" maxlength="10" size="10"
+                                required="required" />
+                        </p>
+                        <fieldset>
+                            <legend>Sex</legend>
+                            <p><label for="male">Male</label>
+                                <input type="radio" id="male" name="sex" value="male" />
+                            </p>
+                            <p><label for="female">Female</label>
+                                <input type="radio" id="female" name="sex" value="female" />
+                            </p>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Years of Prior Experience</legend>
+                            <p><label for="less2years">Less than 2 years</label>
+                                <input type="radio" id="less2years" name="unit" value="less2years"
+                                    required="required" />
+                                <label for="2to5years">2 to 5 years</label>
+                                <input type="radio" id="2to5years" name="unit" value="2to5years" />
+                                <label for="morethan5years">more than 5 years</label>
+                                <input type="radio" id="morethan5years" name="unit" value="morethan5years" />
+                            </p>
+
+                            <p><label for="tutor">Role You're Applying For & Role</label>
+                                <select name="tutor" id="tutor" required="required">
+                                    <option value="">Please Select</option>
+                                    <option value="appdev">Applications Developer Mobile</option>
+                                    <option value="fullstackdev">Full-Stack Developer</option>
+                                    <option value="securityanalyst">Security Analyst</option>
+                                </select>
+                            </p>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Skillsets & Other Skills</legend>
+                            <p><label for="htmlknow">HTML</label>
+                                <input type="checkbox" id="htmlknow" name="category[]" value="html" checked="checked" />
+
+                                <label for="cssknow">CSS</label>
+                                <input type="checkbox" id="cssknow" name="category[]" value="css" />
+
+                                <label for="javascriptknow">JavaScript</label>
+                                <input type="checkbox" id="javascriptknow" name="category[]" value="javascript" />
+
+                                <label for="phpknow">PHP</label>
+                                <input type="checkbox" id="phpknow" name="category[]" value="php" />
+
+                                <label for="mysqlknow">MySQL</label>
+                                <input type="checkbox" id="mysqlknow" name="category[]" value="mysql" />
+
+                                <label for="cplusplusknow">C++</label>
+                                <input type="checkbox" id="cplusplusknow" name="category[]" value="c++" />
+                            </p>
+
+                            <p><label for="otherskills">Enter Any Other Skills</label>
+                                <textarea id="otherskills" name="otherskills" rows="4" cols="40"
+                                    placeholder="Type other skills here..."></textarea>
+                            </p>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>When Can You Begin?</legend>
+                            <p><label for="datefield">Enter Earliest Start Date</label>
+                                <input type="text" name="datefield" id="datefield" size="10" required="required"
+                                    placeholder="dd/mm/yyyy" pattern="\d{1,2}\/\d{1,2}\/\d{4}" />
+                            </p>
+                        </fieldset>
+
+                        <input type="submit" value="Book" />
+                        <input type="reset" value="Reset Form" />
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright"> &copy; CloverfieldTech Established in 1995</p>
+        <div class="footer-sm">
+            <a href="https://twitter.com/jhbissle">
+                <img class="icontwitter" src="image/twitter-logo-silhouette.png" alt="twitter icon">
+            </a>
+            <a href="https://www.linkedin.com/in/jama-bushra-12677b143">
+                <img class="iconlinkedin" src="image/linkedin-letters.png" alt="linkedin icon">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

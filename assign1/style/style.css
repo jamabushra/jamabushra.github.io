@@ -1,0 +1,418 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFFAF8; 
+    background-image: url('specialpink.jpg');
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 100px;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+header .header-brand {
+    font-family: monospace;
+    font-size: 47px;
+    font-weight: 900;
+    color: #001F67;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: block;
+    color: #EEEEEE;
+    list-style: none;
+    text-align: center;
+    padding: 7px 0px 7px 0px;
+    background-color: #FFDDCC;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: monospace;
+    font-size: 16px;
+    color: #001F67;
+    text-transform: uppercase;
+}
+
+header .header-cases {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) { /*Enhancement - changes only for desktop version*/
+    header .header-brand {
+        margin: 31px 0;
+        text-align: left;
+        line-height: 72px;
+        padding: 0 20px 0 237px;
+        border-right: 7px solid #001F67;
+        float: left;
+    }
+
+    header nav ul {
+        margin: 30px 0px;
+        float: left;
+    }
+    
+    header nav ul li a {
+        line-height: 60px;
+    }
+}
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('viktoria-sotsugova-553777-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.about-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('meiying-ng-581604-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.apply-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('s-o-c-i-a-l-c-u-t-541344-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.enhancements-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('max-ostrozhinskiy-212676-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.jobs-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('scott-webb-271924-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-centre { /*purpose of this section is to centre our banner text */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner h2 {
+    font-family: monospace;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #001F67;
+}
+
+.about-banner h2 {
+    font-family: monospace;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #001F67;
+}
+
+.apply-banner h2 {
+    font-family: monospace;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #001F67;
+}
+
+.enhancements-banner h2 {
+    font-family: monospace;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #001F67;
+}
+
+.jobs-banner h2 {
+    font-family: monospace;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #001F67;
+}
+
+.index-banner h1 {
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 47px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #001F67;
+}
+
+.about-banner h1 {
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 47px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #001F67;
+}
+
+.apply-banner h1 {
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 47px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #001F67;
+}
+
+.enhancements-banner h1 {
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 47px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #001F67;
+}
+
+.jobs-banner h1 {
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 47px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #001F67;
+}
+
+.index-links div {
+    margin: 15px 16px 0;
+    width: calc(100% - 30px);
+    height: 100px;
+    background-color: #FFDDCC;
+}
+
+.index-links div h3 {
+    font-family: monospace;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #001F67;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container { /*using flexbox on this section*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container img {
+        width: 450px;
+        height: 300px;
+        margin: 7px;
+        transition: all 1s; /*this*/
+}
+
+.container img:hover {
+    transform: scale(1.1);/*coupled with this makes it scale for 1 second when i hover cursor over image*/
+}
+/*FOOTER SECTION*/
+footer {
+    margin: 15px 16px 0;
+    width: calc(100% - 30px);
+    height: 100px;
+    margin-top: 20px;
+    background-color: #FFDDCC;
+    overflow: hidden;
+    color: #001F67;
+}
+
+footer div {
+    font-family: monospace;
+    font-size: 27px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.icontwitter {
+    float: right;
+    margin-right: 40px;
+    padding-top: 7px;
+    color: #001F67;
+}
+
+.iconlinkedin {
+    float: right;
+    margin-right: 40px;
+    color: #001F67;
+}
+
+.copyright {
+    margin: 0 auto;
+    padding: 20px;
+    float: left;
+}
+
+.footer-sm {
+    width: 37px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*jobs.html specific html*/
+.jobapplicationsdeveloper {
+    border: 3px solid #001F67;
+    color: #001F67;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.jobwebdeveloper {
+    border:3px solid #FFDDCC;
+    color: #001F67;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.jobsecurityanalyst {
+    border: 3px solid #001F67;
+    color: #001F67;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/*about.html specific html*/
+/*https://www.101computing.net/my-timetable-in-html-css/*/
+.mydetails, .studytables {
+    color: #001F67;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.self-portrait {
+    height: 70px;
+    width: 70px;
+}
+
+.timetable {
+    width:100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  
+.timetable THEAD{
+    color: #001F67;
+}
+  
+.timetable TBODY {
+    background-color: #AAAAFF;
+}
+  
+.timetable TD {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+.timetable TBODY TR TD:first-child {
+    background-color: #FFDDCC;
+    font-weight: bold;
+}
+  
+.break, .lunch {
+   background-color: #FFDDCC !important;
+   font-style: italic;
+}
+  
+.subject {
+    font-size: 12pt;
+    margin-bottom:4px;
+}
+  
+.room {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.hobbies {
+    border: 3px solid #001F67;
+    color: #001F67;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+figure {
+    float: right;
+    border: 3px solid #001F67;
+}
+
+
+/*apply.html specific html*/
+
+#formelements {
+    color: #001F67;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/*enhancements.html specific html*/
+.all-enhancements {
+    color: #001F67;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/*jobs section*/
+aside {
+    float: right;
+    border: 3px solid #001F67;
+    width: 25%;
+    margin: 10px 0;
+    padding: 10px 10px 10px 10px;
+}
